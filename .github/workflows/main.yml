@@ -1,9 +1,7 @@
 name: debugger-action
 on:
-   workflow_dispatch
-  push:
-    branches:
-      - test
+  workflow_dispatch
+
 jobs:
   build:
     runs-on: ubuntu-latest
